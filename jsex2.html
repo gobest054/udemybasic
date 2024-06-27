@@ -1,0 +1,41 @@
+<!-- insert javasc-->
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>java script ex2</title>
+    <!--javasc สามารถใส่ใน head ได้ -->
+    <script>
+
+        function ex2_1(){
+            document.getElementById("ex2.1")
+            .innerHTML="[head] best the series"
+
+        }
+    </script>
+</head>
+<body>
+    <!--การกำหนด function และการนำมาใช้ โดยการเรียกผ่านปุ่ม [body]-->
+    <h2>javasc ex2: insert javasc</h2>
+    <p id = "ex2.1">what is your name</p>
+    <button type="button" onclick="ex2_1()">answer1</button>
+
+    <p id="ex2-2">what are your doing</p>
+    <button type="button" onclick="function2()">answer2
+    </button>
+    <script>
+        function function2(){
+            document.getElementById("ex2-2")
+            .innerHTML = "[body] i'm study javasc programming"
+        }
+    </script>
+
+    <!-- เขียนผ่าน เอกเทอนอลไฟล์-->
+    <p id="ex2.3">hoe are your doing</p>
+    <button type="button" onclick="fun3()">answer3
+    </button>
+    <script src="jsex2.js"></script>
+
+
+</body>
+</html>
